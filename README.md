@@ -7,10 +7,10 @@ This application tests the CertificateSigningRequestSwift framework (https://git
 - Build the project
 - Look under "Frameworks" in the CertificateSigningRequestSwift, and drag "CertificateSigningRequestSwift.framework" into CertificateSigningRequestSwift_Test project in the following:
 
--- In CertificateSigningRequestSwift_Test Targets, click on "General"
--- Place "CertificateSigningRequestSwift.framework" in "Embedded Binaries" and it should automatically appear in "Linked Frameworks and Libraries"
--- Select copy to directory if needed
--- Then, simply place "import CertificateSigningRequestSwift" at the top of any file that needs the framework.
+- In CertificateSigningRequestSwift_Test Targets, click on "General"
+- Place "CertificateSigningRequestSwift.framework" in "Embedded Binaries" and it should automatically appear in "Linked Frameworks and Libraries"
+- Select copy to directory if needed
+- Then, simply place "import CertificateSigningRequestSwift" at the top of any file that needs the framework.
 
 Build and run the test and the CSR will be printing in the debug window. You should get something like:
 
