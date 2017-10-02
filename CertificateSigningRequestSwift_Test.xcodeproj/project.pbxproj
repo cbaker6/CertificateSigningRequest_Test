@@ -57,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		91234BBE1F82DD030063F700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91234BC81F82E75E0063F700 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		919EAAAC1F7CB28F00D1AE93 /* CSR_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSR_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		919EAAB11F7CB28F00D1AE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		919EAAAE1F7CB28F00D1AE93 /* CertificateSigningRequestSwift_Test */ = {
 			isa = PBXGroup;
 			children = (
+				91234BC81F82E75E0063F700 /* README.md */,
 				919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */,
 				919EAAB11F7CB28F00D1AE93 /* ViewController.swift */,
 				919EAAC41F7CB2E100D1AE93 /* CertificateSigningRequestSwift_Test.swift */,
