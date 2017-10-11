@@ -31,20 +31,41 @@ class TestCSR {
                 String(kSecAttrAccessible): kSecAttrAccessibleAlways
             ]
             
-            let privateKeyParameters: [String: AnyObject] = [
+            var privateKeyParameters: [String: AnyObject] = [
                 String(kSecAttrIsPermanent): kCFBooleanTrue,
                 String(kSecAttrApplicationTag): tagPrivate as AnyObject,
                 String(kSecAttrAccessible): kSecAttrAccessibleAlways
             ]
             
+            #if !arch(i386) && !arch(x86_64)
+                //This only works for Secure Enclave consistign of 256 bit key, note, the signatureType is irrelavent for this check
+                if keyAlgorithm.type == KeyAlgorithm.ec(signatureType: .sha1).type{
+                    let access = SecAccessControlCreateWithFlags(kCFAllocatorDefault,
+                                                                 kSecAttrAccessibleAlwaysThisDeviceOnly,
+                                                                 .privateKeyUsage,
+                                                                 nil)!   // Ignore error
+                    
+                    privateKeyParameters[String(kSecAttrAccessControl)] = access
+                }
+            #endif
+            
             //Define what type of keys to be generated here
-            let parameters: [String: AnyObject] = [
+            var parameters: [String: AnyObject] = [
                 String(kSecAttrKeyType): keyAlgorithm.secKeyAttrType,
                 String(kSecAttrKeySizeInBits): keyAlgorithm.availableKeySizes.last! as AnyObject,
                 String(kSecReturnRef): kCFBooleanTrue,
                 kSecPublicKeyAttrs as String: publicKeyParameters as AnyObject,
                 kSecPrivateKeyAttrs as String: privateKeyParameters as AnyObject,
             ]
+            
+            #if !arch(i386) && !arch(x86_64)
+              
+                //iOS only allows EC 256 keys to be secured in enclave. This will attempt to allow any EC key in the enclave, assuming iOS will do it outside of the enclave if it doesn't like the key size, note: the signatureType is irrelavent for this check
+                if keyAlgorithm.type == KeyAlgorithm.ec(signatureType: .sha1).type{
+                    parameters[String(kSecAttrTokenID)] = kSecAttrTokenIDSecureEnclave
+                }
+            
+            #endif
             
             //Use Apple Security Framework to generate keys, save them to application keychain
             var error: Unmanaged<CFError>?
