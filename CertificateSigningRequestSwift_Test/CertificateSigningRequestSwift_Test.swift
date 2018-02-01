@@ -118,8 +118,7 @@ class TestCSR {
         publicKeyBits = keyBits
         
         //Initiale CSR
-        let csr = CertificateSigningRequest(commonName: "CertificateSigningRequestSwift Test", organizationName:"Test", organizationUnitName:"Test", countryName:"US", keyAlgorithm: keyAlgorithm)
-        
+        let csr = CertificateSigningRequest(commonName: "CertificateSigningRequestSwift Test", organizationName: "Test", organizationUnitName: "Test", countryName: "US", stateOrProvinceName: "KY", localityName: "Test", keyAlgorithm: keyAlgorithm)
         //Build the CSR
         guard let csrBuild = csr.buildAndEncodeDataAsString(publicKeyBits!, privateKey: privateKey!) else {
             return
