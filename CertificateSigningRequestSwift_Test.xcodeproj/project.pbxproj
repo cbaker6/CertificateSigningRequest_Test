@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9123766D245B1725000C15DB /* CSR_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123766C245B1725000C15DB /* CSR_testTests.swift */; };
-		91595676245B1C8100829AF3 /* CertificateSigningRequest in Frameworks */ = {isa = PBXBuildFile; productRef = 91595675245B1C8100829AF3 /* CertificateSigningRequest */; };
+		91595685245B418000829AF3 /* CertificateSigningRequest in Frameworks */ = {isa = PBXBuildFile; productRef = 91595684245B418000829AF3 /* CertificateSigningRequest */; };
 		919EAAB01F7CB28F00D1AE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */; };
 		919EAAB21F7CB28F00D1AE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAB11F7CB28F00D1AE93 /* ViewController.swift */; };
 		919EAAB51F7CB28F00D1AE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB31F7CB28F00D1AE93 /* Main.storyboard */; };
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91595676245B1C8100829AF3 /* CertificateSigningRequest in Frameworks */,
+				91595685245B418000829AF3 /* CertificateSigningRequest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 			);
 			name = CSR_test;
 			packageProductDependencies = (
-				91595675245B1C8100829AF3 /* CertificateSigningRequest */,
+				91595684245B418000829AF3 /* CertificateSigningRequest */,
 			);
 			productName = CSR_github;
 			productReference = 919EAAAC1F7CB28F00D1AE93 /* CSR_test.app */;
@@ -197,7 +197,7 @@
 			);
 			mainGroup = 919EAAA31F7CB28F00D1AE93;
 			packageReferences = (
-				91595674245B1C8100829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */,
+				91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */,
 			);
 			productRefGroup = 919EAAAD1F7CB28F00D1AE93 /* Products */;
 			projectDirPath = "";
@@ -530,7 +530,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		91595674245B1C8100829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */ = {
+		91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/cbaker6/CertificateSigningRequest.git";
 			requirement = {
@@ -541,9 +541,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		91595675245B1C8100829AF3 /* CertificateSigningRequest */ = {
+		91595684245B418000829AF3 /* CertificateSigningRequest */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 91595674245B1C8100829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */;
+			package = 91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */;
 			productName = CertificateSigningRequest;
 		};
 /* End XCSwiftPackageProductDependency section */
