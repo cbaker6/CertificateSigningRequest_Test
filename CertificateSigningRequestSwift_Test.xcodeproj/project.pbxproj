@@ -7,37 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91237664245B167F000C15DB /* CertificateSigningRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237662245B1672000C15DB /* CertificateSigningRequest.framework */; };
+		91237665245B167F000C15DB /* CertificateSigningRequest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91237662245B1672000C15DB /* CertificateSigningRequest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9123766D245B1725000C15DB /* CSR_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123766C245B1725000C15DB /* CSR_testTests.swift */; };
+		91237674245B1735000C15DB /* CertificateSigningRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237662245B1672000C15DB /* CertificateSigningRequest.framework */; };
 		919EAAB01F7CB28F00D1AE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */; };
 		919EAAB21F7CB28F00D1AE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAB11F7CB28F00D1AE93 /* ViewController.swift */; };
 		919EAAB51F7CB28F00D1AE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB31F7CB28F00D1AE93 /* Main.storyboard */; };
 		919EAAB71F7CB28F00D1AE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB61F7CB28F00D1AE93 /* Assets.xcassets */; };
 		919EAABA1F7CB28F00D1AE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB81F7CB28F00D1AE93 /* LaunchScreen.storyboard */; };
 		919EAAC51F7CB2E100D1AE93 /* CertificateSigningRequestSwift_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAC41F7CB2E100D1AE93 /* CertificateSigningRequestSwift_Test.swift */; };
-		91B5FFEB1F8210840074ECF4 /* CertificateSigningRequestSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5FFE51F8210410074ECF4 /* CertificateSigningRequestSwift.framework */; };
-		91B5FFEC1F8210840074ECF4 /* CertificateSigningRequestSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5FFE51F8210410074ECF4 /* CertificateSigningRequestSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91B5FFE41F8210410074ECF4 /* PBXContainerItemProxy */ = {
+		9123766F245B1725000C15DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 917B68861DD0F4FD00AE5629;
-			remoteInfo = CertificateSigningRequestSwift;
-		};
-		91B5FFE61F8210410074ECF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 917B688F1DD0F4FD00AE5629;
-			remoteInfo = CertificateSigningRequestSwiftTests;
-		};
-		91B5FFED1F8210840074ECF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */;
+			containerPortal = 919EAAA41F7CB28F00D1AE93 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 917B68851DD0F4FD00AE5629;
-			remoteInfo = CertificateSigningRequestSwift;
+			remoteGlobalIDString = 919EAAAB1F7CB28F00D1AE93;
+			remoteInfo = CSR_test;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				91B5FFEC1F8210840074ECF4 /* CertificateSigningRequestSwift.framework in Embed Frameworks */,
+				91237665245B167F000C15DB /* CertificateSigningRequest.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +46,10 @@
 /* Begin PBXFileReference section */
 		91234BBE1F82DD030063F700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91234BC81F82E75E0063F700 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		91237662245B1672000C15DB /* CertificateSigningRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CertificateSigningRequest.framework; sourceTree = "<group>"; };
+		9123766A245B1725000C15DB /* CSR_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSR_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9123766C245B1725000C15DB /* CSR_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSR_testTests.swift; sourceTree = "<group>"; };
+		9123766E245B1725000C15DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919EAAAC1F7CB28F00D1AE93 /* CSR_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSR_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		919EAAB11F7CB28F00D1AE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,28 +57,44 @@
 		919EAAB61F7CB28F00D1AE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919EAAB91F7CB28F00D1AE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		919EAAC41F7CB2E100D1AE93 /* CertificateSigningRequestSwift_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateSigningRequestSwift_Test.swift; sourceTree = "<group>"; };
-		91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CertificateSigningRequestSwift.xcodeproj; path = ../CertificateSigningRequestSwift/CertificateSigningRequestSwift.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		91237667245B1725000C15DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91237674245B1735000C15DB /* CertificateSigningRequest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919EAAA91F7CB28F00D1AE93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B5FFEB1F8210840074ECF4 /* CertificateSigningRequestSwift.framework in Frameworks */,
+				91237664245B167F000C15DB /* CertificateSigningRequest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9123766B245B1725000C15DB /* CSR_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				9123766C245B1725000C15DB /* CSR_testTests.swift */,
+				9123766E245B1725000C15DB /* Info.plist */,
+			);
+			path = CSR_testTests;
+			sourceTree = "<group>";
+		};
 		919EAAA31F7CB28F00D1AE93 = {
 			isa = PBXGroup;
 			children = (
 				919EAAAE1F7CB28F00D1AE93 /* CertificateSigningRequestSwift_Test */,
+				9123766B245B1725000C15DB /* CSR_testTests */,
 				919EAAAD1F7CB28F00D1AE93 /* Products */,
 				919EAAC11F7CB2BC00D1AE93 /* Frameworks */,
-				91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				919EAAAC1F7CB28F00D1AE93 /* CSR_test.app */,
+				9123766A245B1725000C15DB /* CSR_testTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,22 +125,32 @@
 		919EAAC11F7CB2BC00D1AE93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91237662245B1672000C15DB /* CertificateSigningRequest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		91B5FFE01F8210410074ECF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91B5FFE51F8210410074ECF4 /* CertificateSigningRequestSwift.framework */,
-				91B5FFE71F8210410074ECF4 /* CertificateSigningRequestSwiftTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		91237669245B1725000C15DB /* CSR_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91237671245B1725000C15DB /* Build configuration list for PBXNativeTarget "CSR_testTests" */;
+			buildPhases = (
+				91237666245B1725000C15DB /* Sources */,
+				91237667245B1725000C15DB /* Frameworks */,
+				91237668245B1725000C15DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91237670245B1725000C15DB /* PBXTargetDependency */,
+			);
+			name = CSR_testTests;
+			productName = CSR_testTests;
+			productReference = 9123766A245B1725000C15DB /* CSR_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		919EAAAB1F7CB28F00D1AE93 /* CSR_test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 919EAABE1F7CB29000D1AE93 /* Build configuration list for PBXNativeTarget "CSR_test" */;
@@ -144,7 +163,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				91B5FFEE1F8210840074ECF4 /* PBXTargetDependency */,
 			);
 			name = CSR_test;
 			productName = CSR_github;
@@ -157,10 +175,15 @@
 		919EAAA41F7CB28F00D1AE93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Corey Baker";
 				TargetAttributes = {
+					91237669245B1725000C15DB = {
+						CreatedOnToolsVersion = 11.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 919EAAAB1F7CB28F00D1AE93;
+					};
 					919EAAAB1F7CB28F00D1AE93 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -179,37 +202,22 @@
 			mainGroup = 919EAAA31F7CB28F00D1AE93;
 			productRefGroup = 919EAAAD1F7CB28F00D1AE93 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 91B5FFE01F8210410074ECF4 /* Products */;
-					ProjectRef = 91B5FFDF1F8210410074ECF4 /* CertificateSigningRequestSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				919EAAAB1F7CB28F00D1AE93 /* CSR_test */,
+				91237669245B1725000C15DB /* CSR_testTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		91B5FFE51F8210410074ECF4 /* CertificateSigningRequestSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CertificateSigningRequestSwift.framework;
-			remoteRef = 91B5FFE41F8210410074ECF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91B5FFE71F8210410074ECF4 /* CertificateSigningRequestSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CertificateSigningRequestSwiftTests.xctest;
-			remoteRef = 91B5FFE61F8210410074ECF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
+		91237668245B1725000C15DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919EAAAA1F7CB28F00D1AE93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +231,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		91237666245B1725000C15DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9123766D245B1725000C15DB /* CSR_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		919EAAA81F7CB28F00D1AE93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,10 +252,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		91B5FFEE1F8210840074ECF4 /* PBXTargetDependency */ = {
+		91237670245B1725000C15DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CertificateSigningRequestSwift;
-			targetProxy = 91B5FFED1F8210840074ECF4 /* PBXContainerItemProxy */;
+			target = 919EAAAB1F7CB28F00D1AE93 /* CSR_test */;
+			targetProxy = 9123766F245B1725000C15DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -263,6 +279,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		91237672245B1725000C15DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26KDKYY38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CSR_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uky.cs.netreconlab.CSR-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSR_test.app/CSR_test";
+			};
+			name = Debug;
+		};
+		91237673245B1725000C15DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K26KDKYY38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CSR_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uky.cs.netreconlab.CSR-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSR_test.app/CSR_test";
+			};
+			name = Release;
+		};
 		919EAABC1F7CB29000D1AE93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,7 +442,6 @@
 		919EAABF1F7CB29000D1AE93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -403,7 +465,6 @@
 		919EAAC01F7CB29000D1AE93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -426,6 +487,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		91237671245B1725000C15DB /* Build configuration list for PBXNativeTarget "CSR_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91237672245B1725000C15DB /* Debug */,
+				91237673245B1725000C15DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		919EAAA71F7CB28F00D1AE93 /* Build configuration list for PBXProject "CertificateSigningRequestSwift_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

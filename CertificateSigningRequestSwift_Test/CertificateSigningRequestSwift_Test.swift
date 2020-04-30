@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CertificateSigningRequestSwift
+import CertificateSigningRequest
 
 
 class TestCSR {
