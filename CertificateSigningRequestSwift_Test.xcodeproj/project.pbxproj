@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9123766D245B1725000C15DB /* CSR_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123766C245B1725000C15DB /* CSR_testTests.swift */; };
-		91595685245B418000829AF3 /* CertificateSigningRequest in Frameworks */ = {isa = PBXBuildFile; productRef = 91595684245B418000829AF3 /* CertificateSigningRequest */; };
 		919EAAB01F7CB28F00D1AE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAAF1F7CB28F00D1AE93 /* AppDelegate.swift */; };
 		919EAAB21F7CB28F00D1AE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EAAB11F7CB28F00D1AE93 /* ViewController.swift */; };
 		919EAAB51F7CB28F00D1AE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB31F7CB28F00D1AE93 /* Main.storyboard */; };
 		919EAAB71F7CB28F00D1AE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB61F7CB28F00D1AE93 /* Assets.xcassets */; };
 		919EAABA1F7CB28F00D1AE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919EAAB81F7CB28F00D1AE93 /* LaunchScreen.storyboard */; };
+		95F8068499F99A2C127EAEE8 /* Pods_CSR_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B78CF91648AB925E80C8AC0 /* Pods_CSR_testTests.framework */; };
+		A0462110F80A4E0D5537259C /* Pods_CSR_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652AC0F1E8D82A3D9779020B /* Pods_CSR_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B78CF91648AB925E80C8AC0 /* Pods_CSR_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSR_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59757F08C269ABD7E593811D /* Pods-CSR_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSR_test.release.xcconfig"; path = "Target Support Files/Pods-CSR_test/Pods-CSR_test.release.xcconfig"; sourceTree = "<group>"; };
+		652AC0F1E8D82A3D9779020B /* Pods_CSR_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSR_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91234BBE1F82DD030063F700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91234BC81F82E75E0063F700 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9123766A245B1725000C15DB /* CSR_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSR_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,9 @@
 		919EAAB41F7CB28F00D1AE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		919EAAB61F7CB28F00D1AE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919EAAB91F7CB28F00D1AE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		939DD6FD485358FDA23D3C77 /* Pods-CSR_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSR_test.debug.xcconfig"; path = "Target Support Files/Pods-CSR_test/Pods-CSR_test.debug.xcconfig"; sourceTree = "<group>"; };
+		B51F8B3115B2D8DF186B6A6F /* Pods-CSR_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSR_testTests.debug.xcconfig"; path = "Target Support Files/Pods-CSR_testTests/Pods-CSR_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC5B466FC237DD10E93393E /* Pods-CSR_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSR_testTests.release.xcconfig"; path = "Target Support Files/Pods-CSR_testTests/Pods-CSR_testTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F8068499F99A2C127EAEE8 /* Pods_CSR_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91595685245B418000829AF3 /* CertificateSigningRequest in Frameworks */,
+				A0462110F80A4E0D5537259C /* Pods_CSR_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +96,7 @@
 				9123766B245B1725000C15DB /* CSR_testTests */,
 				919EAAAD1F7CB28F00D1AE93 /* Products */,
 				919EAAC11F7CB2BC00D1AE93 /* Frameworks */,
+				9397C6AD7554B3503F218378 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +126,22 @@
 		919EAAC11F7CB2BC00D1AE93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				652AC0F1E8D82A3D9779020B /* Pods_CSR_test.framework */,
+				4B78CF91648AB925E80C8AC0 /* Pods_CSR_testTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9397C6AD7554B3503F218378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939DD6FD485358FDA23D3C77 /* Pods-CSR_test.debug.xcconfig */,
+				59757F08C269ABD7E593811D /* Pods-CSR_test.release.xcconfig */,
+				B51F8B3115B2D8DF186B6A6F /* Pods-CSR_testTests.debug.xcconfig */,
+				CCC5B466FC237DD10E93393E /* Pods-CSR_testTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91237671245B1725000C15DB /* Build configuration list for PBXNativeTarget "CSR_testTests" */;
 			buildPhases = (
+				6DA5782F66405CE4A29EB68B /* [CP] Check Pods Manifest.lock */,
 				91237666245B1725000C15DB /* Sources */,
 				91237667245B1725000C15DB /* Frameworks */,
 				91237668245B1725000C15DB /* Resources */,
+				B1CC9924BA630BB6D448881A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,8 +163,6 @@
 				91237670245B1725000C15DB /* PBXTargetDependency */,
 			);
 			name = CSR_testTests;
-			packageProductDependencies = (
-			);
 			productName = CSR_testTests;
 			productReference = 9123766A245B1725000C15DB /* CSR_testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -148,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 919EAABE1F7CB29000D1AE93 /* Build configuration list for PBXNativeTarget "CSR_test" */;
 			buildPhases = (
+				42E9D13C2037029575B9F658 /* [CP] Check Pods Manifest.lock */,
 				919EAAA81F7CB28F00D1AE93 /* Sources */,
 				919EAAA91F7CB28F00D1AE93 /* Frameworks */,
 				919EAAAA1F7CB28F00D1AE93 /* Resources */,
@@ -158,9 +182,6 @@
 			dependencies = (
 			);
 			name = CSR_test;
-			packageProductDependencies = (
-				91595684245B418000829AF3 /* CertificateSigningRequest */,
-			);
 			productName = CSR_github;
 			productReference = 919EAAAC1F7CB28F00D1AE93 /* CSR_test.app */;
 			productType = "com.apple.product-type.application";
@@ -196,9 +217,6 @@
 				Base,
 			);
 			mainGroup = 919EAAA31F7CB28F00D1AE93;
-			packageReferences = (
-				91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */,
-			);
 			productRefGroup = 919EAAAD1F7CB28F00D1AE93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,6 +246,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E9D13C2037029575B9F658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSR_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA5782F66405CE4A29EB68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSR_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1CC9924BA630BB6D448881A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSR_testTests/Pods-CSR_testTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CertificateSigningRequest/CertificateSigningRequest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CertificateSigningRequest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSR_testTests/Pods-CSR_testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91237666245B1725000C15DB /* Sources */ = {
@@ -279,6 +362,7 @@
 /* Begin XCBuildConfiguration section */
 		91237672245B1725000C15DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51F8B3115B2D8DF186B6A6F /* Pods-CSR_testTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -290,11 +374,7 @@
 				);
 				INFOPLIST_FILE = CSR_testTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uky.cs.netreconlab.CSR-testTests";
@@ -307,6 +387,7 @@
 		};
 		91237673245B1725000C15DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC5B466FC237DD10E93393E /* Pods-CSR_testTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -318,11 +399,7 @@
 				);
 				INFOPLIST_FILE = CSR_testTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uky.cs.netreconlab.CSR-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,15 +516,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		919EAABF1F7CB29000D1AE93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939DD6FD485358FDA23D3C77 /* Pods-CSR_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -458,10 +535,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CertificateSigningRequestSwift_Test/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onedegree.CSR-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -474,6 +548,7 @@
 		};
 		919EAAC01F7CB29000D1AE93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59757F08C269ABD7E593811D /* Pods-CSR_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -484,10 +559,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CertificateSigningRequestSwift_Test/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onedegree.CSR-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -528,25 +600,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cbaker6/CertificateSigningRequest.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		91595684245B418000829AF3 /* CertificateSigningRequest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 91595683245B418000829AF3 /* XCRemoteSwiftPackageReference "CertificateSigningRequest" */;
-			productName = CertificateSigningRequest;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 919EAAA41F7CB28F00D1AE93 /* Project object */;
 }
