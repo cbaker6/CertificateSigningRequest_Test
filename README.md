@@ -1,7 +1,9 @@
 # CertificateSigningRequest_Test
 Simple app that tests the CertificateSigningRequest framework
 
-This includes [CertificateSigningRequest](https://github.com/cbaker6/CertificateSigningRequest) using SPM. Build and run the test the CSR_testTests.swift file and the CSR will print out in the console log window. You should get something like:
+This includes [CertificateSigningRequest](https://github.com/cbaker6/CertificateSigningRequest) using SPM. You can test the cocoapod version in the [pod](https://github.com/cbaker6/CertificateSigningRequest_Test/tree/pod) branch.
+
+Build and run the test the CSR_testTests.swift file and the CSR will print out in the console log window. You should get something like:
 
 -----BEGIN CERTIFICATE REQUEST-----
 MIIBMDCB1wIBADB1MQswCQYDVQQGDAJVUzELMAkGA1UECAwCS1kxDTALBgNVBAcM
